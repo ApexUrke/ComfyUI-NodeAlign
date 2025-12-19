@@ -14,6 +14,8 @@
 * **Keyboard Shortcuts**: Use the `Shift + WASD` keys to quickly align nodes (Up, Left, Down, Right).
 * **Customizable Colors and Opacity**: Modify the toolbar’s background color, opacity, and icon colors.
 
+https://github.com/user-attachments/assets/40b117d9-91f7-47c3-8640-014f8fd06fce
+
 ## Compatibility
 - Tested with ComfyUI v3.7.3 front-end.
 - If the toolbar fails to show, hard refresh with cache disabled and check console for `[NodeAlign.Settings] loaded` and `[NodeAlign] init`.
